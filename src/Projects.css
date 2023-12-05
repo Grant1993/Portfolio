@@ -1,0 +1,103 @@
+.psection {
+  background-color: #0c2d1c;
+  color: #fff;
+  height: 100vh;
+}
+
+.psection h1 {
+  padding-top: 50px;
+}
+
+.pwrapper {
+  display: grid;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+}
+.pwrapper img {
+  width: 250px
+}
+.pone {
+  grid-column: 1;
+  grid-row: 1;
+}
+.ptwo {
+  grid-column: 2;
+  grid-row: 1 / 2;
+}
+.ptwo p {
+  text-align: left;
+  padding-left: 5px;
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  height: 100%;
+}
+.pthree {
+  grid-column: 1;
+  grid-row: 3;
+}
+.pfour {
+  grid-column: 2;
+  grid-row: 3 / 3;
+}
+.pfour p {
+  text-align: left;
+  padding-left: 5px;
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  height: 100%;
+}
+.pfive {
+  grid-column: 1;
+  grid-row: 5;
+}
+.psix {
+  grid-column: 2;
+  grid-row: 5;
+}
+.psix p {
+  text-align: left;
+  padding-left: 5px;
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  height: 100%;
+}
+.pseven {
+  grid-column: 1;
+  grid-row: 7;
+}
+.peight {
+  grid-column: 2;
+  grid-row: 7;
+}
+.peight p {
+  text-align: left;
+  padding-left: 5px;
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  height: 100%;
+}
+.pnine {
+  grid-column: 1;
+  grid-row: 9;
+}
+.pten {
+  grid-column: 2;
+  grid-row: 9;
+}
+.pten p {
+  text-align: left;
+  padding-left: 5px;
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  height: 100%;
+}

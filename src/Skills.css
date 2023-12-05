@@ -1,0 +1,9 @@
+.psection {
+  background-color: #0c2d1c;
+  color: #fff;
+  height: 100vh;
+}
+
+.psection h1 {
+  padding-top: 50px;
+}
