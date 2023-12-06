@@ -12,11 +12,7 @@ function Projects() {
       <div className="ptable">
         <div class="pwrapper">
           <div class="pone">
-            <a
-              href="https://grantsdogshelter.netlify.app/dogs"
-              rel="noopener"
-              target="_blank"
-            >
+            <a href="https://grantsdogshelter.netlify.app/dogs" target="_blank">
               <img src={DogApp} alt="DogApp" />
             </a>
           </div>
@@ -24,11 +20,7 @@ function Projects() {
             <p>Dog App</p>
           </div>
           <div class="pthree">
-            <a
-              href="https://grantsdadjokes.netlify.app/"
-              rel="noopener"
-              target="_blank"
-            >
+            <a href="https://grantsdadjokes.netlify.app/" target="_blank">
               <img src={DadJokes} alt="DadJokes" />
             </a>
           </div>
@@ -36,11 +28,7 @@ function Projects() {
             <p>DadJokes</p>
           </div>
           <div class="pfive">
-            <a
-              href="https://grantsyahtzee.netlify.app/"
-              rel="noopener"
-              target="_blank"
-            >
+            <a href="https://grantsyahtzee.netlify.app/" target="_blank">
               <img src={Yahtzee} alt="Yahtzee" />
             </a>
           </div>
@@ -48,11 +36,7 @@ function Projects() {
             <p>Yahtzee</p>
           </div>
           <div class="pseven">
-            <a
-              href="https://grantsreacttodolist.netlify.app/"
-              rel="noopener"
-              target="_blank"
-            >
+            <a href="https://grantsreacttodolist.netlify.app/" target="_blank">
               <img src={TodoList} alt="TodoList" />
             </a>
           </div>
@@ -60,11 +44,7 @@ function Projects() {
             <p>TodoList</p>
           </div>
           <div class="pnine">
-            <a
-              href="https://grantslightsout.netlify.app/"
-              rel="noopener"
-              target="_blank"
-            >
+            <a href="https://grantslightsout.netlify.app/" target="_blank">
               <img src={Lightsout} alt="Lightsout" />
             </a>
           </div>
