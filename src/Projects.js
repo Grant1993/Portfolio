@@ -12,7 +12,7 @@ function Projects() {
       <div className="ptable">
         <div class="pwrapper">
           <div class="pone">
-            <a href="https://grantsdogshelter.netlify.app/dogs" target="_blank">
+            <a href="https://grantsdogshelter.netlify.app/dogs">
               <img src={DogApp} alt="DogApp" />
             </a>
           </div>
@@ -20,7 +20,7 @@ function Projects() {
             <p>Dog App</p>
           </div>
           <div class="pthree">
-            <a href="https://grantsdadjokes.netlify.app/" target="_blank">
+            <a href="https://grantsdadjokes.netlify.app/">
               <img src={DadJokes} alt="DadJokes" />
             </a>
           </div>
@@ -28,7 +28,7 @@ function Projects() {
             <p>DadJokes</p>
           </div>
           <div class="pfive">
-            <a href="https://grantsyahtzee.netlify.app/" target="_blank">
+            <a href="https://grantsyahtzee.netlify.app/">
               <img src={Yahtzee} alt="Yahtzee" />
             </a>
           </div>
@@ -36,7 +36,7 @@ function Projects() {
             <p>Yahtzee</p>
           </div>
           <div class="pseven">
-            <a href="https://grantsreacttodolist.netlify.app/" target="_blank">
+            <a href="https://grantsreacttodolist.netlify.app/">
               <img src={TodoList} alt="TodoList" />
             </a>
           </div>
@@ -44,7 +44,7 @@ function Projects() {
             <p>TodoList</p>
           </div>
           <div class="pnine">
-            <a href="https://grantslightsout.netlify.app/" target="_blank">
+            <a href="https://grantslightsout.netlify.app/">
               <img src={Lightsout} alt="Lightsout" />
             </a>
           </div>
