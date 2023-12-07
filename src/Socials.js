@@ -1,6 +1,8 @@
 import "./Socials.css";
 import linkedIn from "./linkedin.png";
 import github from "./github.png";
+import download from "./download.png";
+import CV from "./GrantPritchardCV.pdf";
 
 function Socials() {
   return (
@@ -13,6 +15,11 @@ function Socials() {
       <div class="two">
         <a href="https://github.com/Grant1993">
           <img src={github} alt="Github" />
+        </a>
+      </div>
+      <div>
+        <a href={CV} download>
+          <img src={download} alt="Github" />
         </a>
       </div>
     </div>
