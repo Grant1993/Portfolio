@@ -19,7 +19,8 @@
   grid-auto-rows: minmax(10px, auto);
 }
 .pwrapper img {
-  width: 250px
+  width: 250px;
+  border-radius: 5px;
 }
 .pone {
   grid-column: 1;
