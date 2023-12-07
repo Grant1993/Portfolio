@@ -27,6 +27,11 @@ function Links() {
                 Skills
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Certifications">
+                Certifications
+              </a>
+            </li>
           </ul>
         </div>
       </div>
