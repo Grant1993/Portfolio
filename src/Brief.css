@@ -1,9 +1,14 @@
 .profile {
   width: 300px;
   border-radius: 50%;
+  padding-top: 25px;
 }
 
 .section {
   width: 300px;
   margin: auto;
+}
+
+.btitle {
+  padding-top: 25px;
 }

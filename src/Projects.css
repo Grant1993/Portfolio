@@ -1,7 +1,7 @@
 .psection {
   background-color: #0c2d1c;
   color: #fff;
-  height: 100vh;
+  height: 105vh;
 }
 
 .psection h1 {
@@ -36,6 +36,7 @@
   color: black;
   width: 250px;
   height: 100%;
+  border-radius: 5px;
 }
 .ptwo img {
   width: 40px;
@@ -58,6 +59,7 @@
   color: black;
   width: 250px;
   height: 100%;
+  border-radius: 5px;
 }
 .pfour img {
   width: 40px;
@@ -80,6 +82,7 @@
   color: black;
   width: 250px;
   height: 100%;
+  border-radius: 5px;
 }
 .psix img {
   width: 40px;
@@ -102,6 +105,7 @@
   color: black;
   width: 250px;
   height: 100%;
+  border-radius: 5px;
 }
 .peight img {
   width: 40px;
@@ -124,6 +128,7 @@
   color: black;
   width: 250px;
   height: 100%;
+  border-radius: 5px;
 }
 .pten img {
   width: 40px;

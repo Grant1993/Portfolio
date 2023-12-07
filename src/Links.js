@@ -1,19 +1,36 @@
 import "bootstrap/dist/css/bootstrap.css";
-import { Container, Nav, Navbar } from "react-bootstrap";
 
 function Links() {
   return (
-    <Navbar expand="lg">
-      <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto bg-white">
-            <Nav.Link href="#Projects">Projects</Nav.Link>
-            <Nav.Link href="#Skills">Skills</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Projects">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">
+                Skills
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
 
