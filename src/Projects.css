@@ -37,6 +37,12 @@
   width: 250px;
   height: 100%;
 }
+.ptwo img {
+  width: 40px;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 85px;
+}
 .pthree {
   grid-column: 1;
   grid-row: 3;
@@ -52,6 +58,12 @@
   color: black;
   width: 250px;
   height: 100%;
+}
+.pfour img {
+  width: 40px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 85px;
 }
 .pfive {
   grid-column: 1;
@@ -69,6 +81,12 @@
   width: 250px;
   height: 100%;
 }
+.psix img {
+  width: 40px;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 85px;
+}
 .pseven {
   grid-column: 1;
   grid-row: 7;
@@ -85,6 +103,12 @@
   width: 250px;
   height: 100%;
 }
+.peight img {
+  width: 40px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 85px;
+}
 .pnine {
   grid-column: 1;
   grid-row: 9;
@@ -100,4 +124,10 @@
   color: black;
   width: 250px;
   height: 100%;
+}
+.pten img {
+  width: 40px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 85px;
 }

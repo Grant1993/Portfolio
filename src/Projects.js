@@ -4,6 +4,7 @@ import DadJokes from "./DadJokes.png";
 import Yahtzee from "./Yahtzee.png";
 import TodoList from "./TodoList.png";
 import Lightsout from "./Lightsout.png";
+import github from "./github.png";
 
 function Projects() {
   return (
@@ -17,6 +18,9 @@ function Projects() {
             </a>
           </div>
           <div class="ptwo">
+            <a href="https://github.com/Grant1993/dogShelter">
+              <img src={github} alt="Github" />
+            </a>
             <p>Dog App</p>
           </div>
           <div class="pthree">
@@ -25,6 +29,9 @@ function Projects() {
             </a>
           </div>
           <div class="pfour">
+            <a href="https://github.com/Grant1993/dadjokes">
+              <img src={github} alt="Github" />
+            </a>
             <p>DadJokes</p>
           </div>
           <div class="pfive">
@@ -33,6 +40,9 @@ function Projects() {
             </a>
           </div>
           <div class="psix">
+            <a href="https://github.com/Grant1993/yahtzee">
+              <img src={github} alt="Github" />
+            </a>
             <p>Yahtzee</p>
           </div>
           <div class="pseven">
@@ -41,6 +51,9 @@ function Projects() {
             </a>
           </div>
           <div class="peight">
+            <a href="https://github.com/Grant1993/todoListReact">
+              <img src={github} alt="Github" />
+            </a>
             <p>TodoList</p>
           </div>
           <div class="pnine">
@@ -49,6 +62,9 @@ function Projects() {
             </a>
           </div>
           <div class="pten">
+            <a href="https://github.com/Grant1993/lightsOut">
+              <img src={github} alt="Github" />
+            </a>
             <p>Lightsout</p>
           </div>
         </div>
