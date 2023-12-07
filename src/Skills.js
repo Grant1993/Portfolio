@@ -10,6 +10,7 @@ import sass from "./sass.png";
 import git from "./git.png";
 import next from "./next-js.png";
 import sql from "./SQL.png";
+import node from "./node.png";
 
 function Skills() {
   return (
@@ -60,6 +61,10 @@ function Skills() {
           <div class="selven">
             <img src={sql} alt="SQL Icon" />
             <p>SQL</p>
+          </div>
+          <div class="stwelve">
+            <img src={node} alt="Node Icon" />
+            <p>Node</p>
           </div>
         </div>
       </div>
