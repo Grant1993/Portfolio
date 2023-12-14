@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import up from "./up.png";
 
 function ScrollToTheTop() {
   const [scrollToTheTop, setScrollToTheTop] = useState(false);
